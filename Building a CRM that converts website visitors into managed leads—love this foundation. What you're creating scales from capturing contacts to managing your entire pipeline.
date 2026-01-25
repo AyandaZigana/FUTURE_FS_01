@@ -1,0 +1,9 @@
+{ "original_problem_statement": "Build a simple CRM to manage client leads generated from website contact forms.\n\n
+Frontend: HTML / CSS / JavaScript (React.js recommended)\n Backend: Node.js / Express (for APIs and business logic)\n
+Database: MongoDB / MySQL (to store leads, status, and notes)\n Key Features:\n ✔ Lead listing (name, email, source, status)\n ✔ Lead status updates (new / contacted / converted)\n
+✔ Notes and follow-ups for each lead\n ✔ Secure admin access (recommended)", "user_choices": "Modern professional dashboard design with clean, minimal aesthetic. Focus on usability and clear data presentation.
+", "key_functionalities": [ "Admin authentication (login/register)", "Lead listing with filters and search", "Lead detail view with status updates", "Add notes and follow-ups to leads",
+"Lead status management (new/contacted/converted)", "Dashboard with lead statistics", "API endpoint for website form submissions" ], "app_type": "dashboard", "functionalities_and_pages": 
+[ "Login/Register page", "Dashboard overview (stats, recent leads)", "Leads list page (table with filters)", "Lead detail page (full info, notes, history)", "Add/Edit lead modal or page" ],
+"target_audience": "Sales teams, business owners managing client leads from website contact forms", "constraints_and_context": "FastAPI + React + MongoDB stack. Must handle leads from external website forms via API.
+Focus on quick lead tracking and status updates. Professional look suitable for business use." }
